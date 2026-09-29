@@ -1,0 +1,396 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Wywóz Człuchów//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wywóz Człuchów – rejon 5
+X-WR-TIMEZONE:Europe/Warsaw
+BEGIN:VEVENT
+UID:czluchow-5-20260108@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260108
+DTEND;VALUE=DATE:20260109
+SUMMARY:🗑 Wywóz: zmieszane, metale i tworzywa sztuczne, papier, popi
+ ół
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, metale i tworzywa sztuczne, papier, 
+ popiół
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260122@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260205@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:🗑 Wywóz: zmieszane, metale i tworzywa sztuczne, szkło, popi
+ ół
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, metale i tworzywa sztuczne, szkło, 
+ popiół
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260219@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260305@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+SUMMARY:🗑 Wywóz: zmieszane, metale i tworzywa sztuczne, papier, popi
+ ół
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, metale i tworzywa sztuczne, papier, 
+ popiół
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260319@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260402@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne, metale i tworzywa sztucz
+ ne, szkło, popiół
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne, metale i tworzywa s
+ ztuczne, szkło, popiół
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260416@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260430@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260514@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne, metale i tworzywa sztucz
+ ne, papier
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne, metale i tworzywa s
+ ztuczne, papier
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260528@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260611@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne, metale i tworzywa sztucz
+ ne, szkło, popiół
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne, metale i tworzywa s
+ ztuczne, szkło, popiół
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260625@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260709@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne, metale i tworzywa sztucz
+ ne, papier
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne, metale i tworzywa s
+ ztuczne, papier
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260723@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260806@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne, metale i tworzywa sztucz
+ ne, szkło, popiół
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne, metale i tworzywa s
+ ztuczne, szkło, popiół
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260820@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260903@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne, metale i tworzywa sztucz
+ ne, papier
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne, metale i tworzywa s
+ ztuczne, papier
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20260917@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20261001@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne, metale i tworzywa sztucz
+ ne, szkło, popiół
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne, metale i tworzywa s
+ ztuczne, szkło, popiół
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20261015@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20261029@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20261112@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:🗑 Wywóz: zmieszane, metale i tworzywa sztuczne, papier, popi
+ ół
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, metale i tworzywa sztuczne, papier, 
+ popiół
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20261126@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20261210@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:🗑 Wywóz: zmieszane, metale i tworzywa sztuczne, szkło, popi
+ ół
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, metale i tworzywa sztuczne, szkło, 
+ popiół
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:czluchow-5-20261223@wywoz
+DTSTAMP:20260927T120000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:🗑 Wywóz: zmieszane, biodegradowalne
+DESCRIPTION:Wystaw odpady przed posesję do 7:00.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jutro wywóz: zmieszane, biodegradowalne
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

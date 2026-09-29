@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f2c4f">
+<title>Wywóz odpadów – aplikacje gmin</title>
+<style>
+:root{--navy:#0f2c4f;--navy2:#1c4a7e;--bg:#eef2f7;--card:#fff;--ink:#13243a;--ink2:#4a5b70}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Roboto,"Segoe UI",system-ui,sans-serif}
+header{background:linear-gradient(160deg,var(--navy),var(--navy2));color:#fff;padding:28px 16px 64px}
+header h1{margin:0 auto;max-width:560px;font-size:1.6rem}
+header p{margin:6px auto 0;max-width:560px;opacity:.85}
+main{max-width:560px;margin:-44px auto 0;padding:0 16px 40px;display:grid;gap:14px}
+.g{background:var(--card);border-radius:18px;box-shadow:0 6px 18px -10px rgba(15,44,79,.3);padding:18px;display:grid;gap:12px}
+.g h2{margin:0;display:flex;align-items:center;gap:12px;font-size:1.2rem}
+.g h2 img{width:44px;height:auto}
+.g small{color:var(--ink2)}
+.b{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+a.btn{display:block;text-align:center;padding:12px;border-radius:12px;font-weight:700;text-decoration:none;background:var(--navy2);color:#fff}
+a.btn.l{background:#e8eef6;color:var(--navy2)}
+.note{font-size:.88rem;color:var(--ink2);background:var(--card);border-radius:14px;padding:14px}
+@media (max-width:400px){.b{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><h1>Wywóz odpadów</h1><p>Harmonogram odbioru odpadów z przypomnieniami na telefon.</p></header>
+<main>
+  <section class="g">
+    <h2><img src="zukowo/ikona-192.png" alt="">Gmina Żukowo</h2>
+    <small>Babi Dół, Glincz · kwiecień 2026 – marzec 2027</small>
+    <div class="b"><a class="btn" href="zukowo/Wywoz-Zukowo.apk">Android: pobierz aplikację</a><a class="btn l" href="zukowo/">iPhone i przeglądarka</a></div>
+  </section>
+  <section class="g">
+    <h2><img src="czluchow/ikona-192.png" alt="">Gmina Człuchów</h2>
+    <small>56 miejscowości · rok 2026</small>
+    <div class="b"><a class="btn" href="czluchow/Wywoz-Czluchow.apk">Android: pobierz aplikację</a><a class="btn l" href="czluchow/">iPhone i przeglądarka</a></div>
+  </section>
+  <div class="note"><b>Android:</b> po pobraniu otwórz plik i zezwól na instalację. Aplikacja sama pobiera nowe harmonogramy i nowe wersje.<br><br>
+  <b>iPhone:</b> otwórz stronę gminy w Safari, dotknij „Udostępnij”, potem „Do ekranu początkowego”.<br><br>Autor: KG</div>
+</main>
+</body>
+</html>
