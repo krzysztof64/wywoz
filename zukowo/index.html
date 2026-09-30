@@ -72,14 +72,19 @@ button,select,input{font:inherit;color:inherit}
 .next .d{display:flex;flex-direction:column;align-items:center;justify-content:center;border-right:1px solid var(--line);padding:14px 0}
 .next .d b{font-size:1.9rem;font-weight:900;line-height:1}
 .next .d span{font-size:.72rem;font-weight:800;text-transform:uppercase;color:var(--ink-3);margin-top:4px}
-.next .fr{display:flex;flex-direction:column;justify-content:center;gap:8px;padding:12px 16px}
-.fr-row{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1rem}
-.fr-row svg{width:24px;height:24px;flex:none}
+.next .fr{display:flex;flex-direction:column;justify-content:center;gap:10px;padding:14px 16px}
+.fr-row{display:flex;align-items:center;gap:12px;font-weight:800;font-size:1.05rem}
 .next .hint{font-size:.85rem;color:var(--ink-2);padding:10px 16px;background:var(--surface-2);border-top:1px solid var(--line)}
-.after{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
-.after .mini{flex:1 0 132px;background:var(--surface);border-radius:14px;box-shadow:var(--shadow);padding:10px 12px;font-size:.82rem;color:var(--ink-2)}
-.after .mini b{display:block;color:var(--ink);font-size:.95rem}
-.after .mini i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:3px;vertical-align:-1px}
+.after .mini{display:grid;grid-template-columns:64px 1fr;gap:12px;align-items:center;padding:10px 16px;border-top:1px solid var(--line)}
+.after h3+div .mini:first-child{border-top:0}
+.after .mini b{display:block;font-size:1.25rem;font-weight:900;line-height:1;text-align:center}
+.after .mini b span{display:block;font-size:.68rem;font-weight:800;text-transform:uppercase;color:var(--ink-3);margin-top:3px}
+.fcs{display:flex;flex-wrap:wrap;gap:6px}
+.fc{display:inline-block;font-size:.85rem;font-weight:800;padding:4px 10px;border-radius:8px;line-height:1.2;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.22)}
+.fb{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;flex:none;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.18)}
+.fb svg{width:26px;height:26px}
+.fb.lg{width:52px;height:52px;border-radius:14px}
+.fb.lg svg{width:34px;height:34px}
 
 .menu{display:flex;flex-direction:column;gap:10px}
 .upd{display:flex;align-items:center;gap:12px;width:100%;border:0;border-radius:16px;padding:12px 14px;background:linear-gradient(135deg,#1e88e5,#7c4dff);color:#fff;font-weight:700;text-align:left;cursor:pointer;box-shadow:var(--shadow)}
@@ -100,7 +105,7 @@ button,select,input{font:inherit;color:inherit}
 .selbox select{appearance:none;width:100%;padding:14px 44px 14px 16px;border-radius:14px;border:0;background:var(--surface);box-shadow:var(--shadow);font-weight:600;cursor:pointer}
 .selbox::after{content:"";position:absolute;right:18px;top:50%;border:6px solid transparent;border-top-color:var(--ink);transform:translateY(-25%);pointer-events:none}
 .month{font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);padding:8px 4px 0}
-.item{display:grid;grid-template-columns:48px 1fr 40px;gap:12px;align-items:center;background:var(--surface);border-radius:14px;box-shadow:var(--shadow);padding:12px 14px 12px 12px;border-left:6px solid var(--cc)}
+.item{display:grid;grid-template-columns:48px 1fr 44px;gap:12px;align-items:center;background:var(--surface);border-radius:14px;box-shadow:var(--shadow);padding:12px 14px 12px 12px;border-left:6px solid var(--cc)}
 .item .d{text-align:center;line-height:1}
 .item .d b{display:block;font-size:1.45rem;font-weight:900}
 .item .d span{font-size:.68rem;font-weight:800;text-transform:uppercase;color:var(--ink-3)}
@@ -123,8 +128,7 @@ button,select,input{font:inherit;color:inherit}
 .az{display:flex;flex-direction:column;background:var(--surface);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
 .az div{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:11px 14px;border-top:1px solid var(--line);font-size:.93rem}
 .az div:first-child{border-top:0}
-.az .to{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:800;padding:3px 9px 3px 5px;border-radius:99px;background:color-mix(in srgb,var(--cc) 16%,var(--surface));white-space:nowrap}
-.az .to svg{width:16px;height:16px}
+.az .to{display:inline-block;font-size:.78rem;font-weight:800;padding:4px 9px;border-radius:8px;white-space:nowrap}
 .az .to.no{background:var(--no-bg);color:var(--no)}
 .box{border-radius:14px;padding:12px 14px;border-left:5px solid var(--k);background:var(--kb)}
 .box.ok{--k:var(--ok);--kb:var(--ok-bg)}
@@ -155,8 +159,8 @@ button,select,input{font:inherit;color:inherit}
 .day.today{box-shadow:inset 0 0 0 2.5px var(--accent)}
 .day.past{opacity:.4}
 .day.sel{background:var(--navy2);color:#fff}
-.pips{display:flex;flex-wrap:wrap;justify-content:center;gap:2px;max-width:34px}
-.pip{width:7px;height:7px;border-radius:50%}
+.pips{display:flex;flex-wrap:wrap;justify-content:center;gap:2px;max-width:40px}
+.pip{width:9px;height:9px;border-radius:50%;box-shadow:0 0 0 1px rgba(255,255,255,.6)}
 .caldetail{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);min-height:52px;display:flex;flex-direction:column;gap:8px}
 .caldetail p{margin:0;font-weight:800}
 
@@ -222,7 +226,7 @@ button,select,input{font:inherit;color:inherit}
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="i-bag" viewBox="0 0 24 24"><path d="M9 2.5c.6 1.2 1.6 1.8 3 1.8s2.4-.6 3-1.8l.8 1.9c-.7.9-1.4 1.6-2.3 2.1 3.6 1.4 6 5 6 9.3 0 3.9-3 6.2-7.5 6.2S4.5 19.7 4.5 15.8c0-4.3 2.4-7.9 6-9.3-.9-.5-1.6-1.2-2.3-2.1z"/></symbol>
-  <symbol id="i-bin" viewBox="0 0 24 24"><path d="M4 5.2h14.5l2-1.6.9 1-1.9 1.7H4.2zM5.3 7.8h13l-1.4 12.4c-.1.9-.8 1.5-1.7 1.5H8.4c-.9 0-1.6-.6-1.7-1.5z"/><circle cx="16.5" cy="20" r="2.4" fill="#111" stroke="#fff" stroke-width="1.1"/></symbol>
+  <symbol id="i-bin" viewBox="0 0 24 24"><path d="M4 5.2h14.5l2-1.6.9 1-1.9 1.7H4.2zM5.3 7.8h13l-1.4 12.4c-.1.9-.8 1.5-1.7 1.5H8.4c-.9 0-1.6-.6-1.7-1.5z"/><circle cx="16.5" cy="20" r="2.2"/></symbol>
   
   <symbol id="i-pay" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8.5 8h7l-7 8h7" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></symbol>
 </svg>
@@ -242,7 +246,7 @@ button,select,input{font:inherit;color:inherit}
     <div class="start-body">
       <button class="upd" id="appUpdBanner" hidden><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 20h14"/></svg><span><span id="appUpdTitle">Dostępna nowa wersja aplikacji</span><small id="appUpdText">Dotknij, żeby zaktualizować</small></span></button>
       <div class="next" id="nextCard"></div>
-      <div class="after" id="afterRow"></div>
+      <div class="card after"><h3>Kolejne odbiory</h3><div id="afterRow"></div></div>
       <div class="menu">
         <button data-open="harm"><span class="sq" style="--q:#f9a825"><svg viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg></span><span>Pełny harmonogram<small id="harmSmall"></small></span><i class="chev"></i></button>
         <button data-open="where"><span class="sq" style="--q:#43a047"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></span><span>Gdzie wyrzucić?<small>wyszukiwarka odpadów</small></span><i class="chev"></i></button>
@@ -371,7 +375,7 @@ button,select,input{font:inherit;color:inherit}
 </div>
 
 <script>
-const BASE_CFG = {"id": "zukowo", "rev": "2026-09-29", "appName": "Wywóz Żukowo", "gmina": "Żukowo", "sub": "gm. Żukowo · pow. kartuski", "period": "IV 2026 – III 2027", "deadline": "6:30", "morning": "5:45", "villages": [["Babi Dół", 1], ["Glincz", 1]], "ev": {"1": {"2026-04-03": "B", "2026-04-09": "XY", "2026-04-10": "B", "2026-04-13": "G", "2026-04-17": "B", "2026-04-23": "X", "2026-04-24": "B", "2026-04-28": "P", "2026-04-30": "BY", "2026-05-07": "X", "2026-05-08": "B", "2026-05-15": "B", "2026-05-21": "XY", "2026-05-22": "B", "2026-05-29": "B", "2026-06-05": "XB", "2026-06-08": "G", "2026-06-11": "Y", "2026-06-12": "B", "2026-06-18": "X", "2026-06-19": "B", "2026-06-24": "P", "2026-06-26": "B", "2026-07-02": "XY", "2026-07-03": "B", "2026-07-10": "B", "2026-07-16": "X", "2026-07-17": "B", "2026-07-23": "Y", "2026-07-24": "B", "2026-07-30": "X", "2026-07-31": "B", "2026-08-03": "G", "2026-08-07": "B", "2026-08-13": "XY", "2026-08-14": "B", "2026-08-19": "P", "2026-08-21": "B", "2026-08-27": "X", "2026-08-28": "B", "2026-09-03": "Y", "2026-09-04": "B", "2026-09-10": "X", "2026-09-11": "B", "2026-09-18": "B", "2026-09-24": "XY", "2026-09-25": "B", "2026-09-28": "G", "2026-10-02": "B", "2026-10-08": "X", "2026-10-09": "B", "2026-10-14": "P", "2026-10-15": "Y", "2026-10-16": "B", "2026-10-22": "X", "2026-10-23": "B", "2026-10-30": "B", "2026-11-05": "XY", "2026-11-13": "B", "2026-11-19": "X", "2026-11-23": "G", "2026-11-26": "Y", "2026-11-27": "B", "2026-12-03": "X", "2026-12-09": "P", "2026-12-11": "B", "2026-12-17": "XY", "2026-12-22": "B", "2026-12-31": "X", "2027-01-07": "Y", "2027-01-08": "B", "2027-01-14": "X", "2027-01-18": "G", "2027-01-22": "B", "2027-01-28": "XY", "2027-02-03": "P", "2027-02-05": "B", "2027-02-11": "X", "2027-02-18": "Y", "2027-02-19": "B", "2027-02-25": "X", "2027-03-05": "B", "2027-03-11": "XY", "2027-03-15": "G", "2027-03-19": "B", "2027-03-25": "X", "2027-03-31": "P"}}, "pay": ["2026-04-15", "2026-06-15", "2026-08-17", "2026-10-15", "2026-12-15", "2027-02-15"], "types": ["X", "B", "Y", "P", "G"], "how": {"X": "pojemnik na zmieszane", "B": "pojemnik lub worek brązowy", "Y": "pojemnik lub worek żółty", "P": "pojemnik lub worek niebieski", "G": "pojemnik lub worek zielony"}, "rules": ["Odpady w pojemnikach lub workach wystaw przed posesję <b>w dniu wywozu do godziny 6:30</b>.", "<b>Zmieszane</b> odbierane są co dwa tygodnie, zwykle w czwartek.", "<b>Biodegradowalne</b> od kwietnia do października odbierane są co tydzień (piątek), od listopada do marca co dwa tygodnie.", "<b>Metale i tworzywa sztuczne</b> odbierane są co trzy tygodnie.", "<b>Szkło</b> i <b>papier</b> odbierane są mniej więcej co osiem tygodni.", "Przy świętach terminy są przesunięte. Zawsze sprawdzaj datę w aplikacji.", "Reklamacje odbioru zgłaszaj najpóźniej w dzień roboczy po planowanym odbiorze pod numerem <a href=\"tel:+48586858371\">(58) 685-83-71</a>."], "contacts": ["<b>ELWOZ eco (wykonawca odbioru)</b>Reklamacje: tel. <a href=\"tel:+48586858371\">(58) 685-83-71</a><br><a href=\"mailto:kartuzy@elwozeco.pl\">kartuzy@elwozeco.pl</a>"], "payNote": "Opłatę za gospodarowanie odpadami komunalnymi wnosi się do dnia podanego w harmonogramie. Numer konta i wysokość opłaty znajdziesz w decyzji lub deklaracji z urzędu gminy.", "brand": ["GMINA<br>ŻUKOWO", ""], "defaultPlace": "1|Glincz", "noPlace": "w tym harmonogramie", "source": "Terminy pochodzą z harmonogramu wywozu odpadów zmieszanych i segregowanych na terenie gminy Żukowo (Babi Dół, Glincz), kwiecień 2026 – marzec 2027, nieruchomości zamieszkałe (ELWOZ eco).", "author": "KG", "ver": "1.4", "updateFile": "harmonogram-zukowo.json", "updateUrl": "https://krzysztof64.github.io/wywoz/zukowo/harmonogram-zukowo.json", "versionUrl": "https://krzysztof64.github.io/wywoz/zukowo/wersja.json", "apkName": "Wywoz-Zukowo.apk"};
+const BASE_CFG = {"id": "zukowo", "rev": "2026-09-29", "appName": "Wywóz Żukowo", "gmina": "Żukowo", "sub": "gm. Żukowo · pow. kartuski", "period": "IV 2026 – III 2027", "deadline": "6:30", "morning": "5:45", "villages": [["Babi Dół", 1], ["Glincz", 1]], "ev": {"1": {"2026-04-03": "B", "2026-04-09": "XY", "2026-04-10": "B", "2026-04-13": "G", "2026-04-17": "B", "2026-04-23": "X", "2026-04-24": "B", "2026-04-28": "P", "2026-04-30": "BY", "2026-05-07": "X", "2026-05-08": "B", "2026-05-15": "B", "2026-05-21": "XY", "2026-05-22": "B", "2026-05-29": "B", "2026-06-05": "XB", "2026-06-08": "G", "2026-06-11": "Y", "2026-06-12": "B", "2026-06-18": "X", "2026-06-19": "B", "2026-06-24": "P", "2026-06-26": "B", "2026-07-02": "XY", "2026-07-03": "B", "2026-07-10": "B", "2026-07-16": "X", "2026-07-17": "B", "2026-07-23": "Y", "2026-07-24": "B", "2026-07-30": "X", "2026-07-31": "B", "2026-08-03": "G", "2026-08-07": "B", "2026-08-13": "XY", "2026-08-14": "B", "2026-08-19": "P", "2026-08-21": "B", "2026-08-27": "X", "2026-08-28": "B", "2026-09-03": "Y", "2026-09-04": "B", "2026-09-10": "X", "2026-09-11": "B", "2026-09-18": "B", "2026-09-24": "XY", "2026-09-25": "B", "2026-09-28": "G", "2026-10-02": "B", "2026-10-08": "X", "2026-10-09": "B", "2026-10-14": "P", "2026-10-15": "Y", "2026-10-16": "B", "2026-10-22": "X", "2026-10-23": "B", "2026-10-30": "B", "2026-11-05": "XY", "2026-11-13": "B", "2026-11-19": "X", "2026-11-23": "G", "2026-11-26": "Y", "2026-11-27": "B", "2026-12-03": "X", "2026-12-09": "P", "2026-12-11": "B", "2026-12-17": "XY", "2026-12-22": "B", "2026-12-31": "X", "2027-01-07": "Y", "2027-01-08": "B", "2027-01-14": "X", "2027-01-18": "G", "2027-01-22": "B", "2027-01-28": "XY", "2027-02-03": "P", "2027-02-05": "B", "2027-02-11": "X", "2027-02-18": "Y", "2027-02-19": "B", "2027-02-25": "X", "2027-03-05": "B", "2027-03-11": "XY", "2027-03-15": "G", "2027-03-19": "B", "2027-03-25": "X", "2027-03-31": "P"}}, "pay": ["2026-04-15", "2026-06-15", "2026-08-17", "2026-10-15", "2026-12-15", "2027-02-15"], "types": ["X", "B", "Y", "P", "G"], "how": {"X": "pojemnik na zmieszane", "B": "pojemnik lub worek brązowy", "Y": "pojemnik lub worek żółty", "P": "pojemnik lub worek niebieski", "G": "pojemnik lub worek zielony"}, "rules": ["Odpady w pojemnikach lub workach wystaw przed posesję <b>w dniu wywozu do godziny 6:30</b>.", "<b>Zmieszane</b> odbierane są co dwa tygodnie, zwykle w czwartek.", "<b>Biodegradowalne</b> od kwietnia do października odbierane są co tydzień (piątek), od listopada do marca co dwa tygodnie.", "<b>Metale i tworzywa sztuczne</b> odbierane są co trzy tygodnie.", "<b>Szkło</b> i <b>papier</b> odbierane są mniej więcej co osiem tygodni.", "Przy świętach terminy są przesunięte. Zawsze sprawdzaj datę w aplikacji.", "Reklamacje odbioru zgłaszaj najpóźniej w dzień roboczy po planowanym odbiorze pod numerem <a href=\"tel:+48586858371\">(58) 685-83-71</a>."], "contacts": ["<b>ELWOZ eco (wykonawca odbioru)</b>Reklamacje: tel. <a href=\"tel:+48586858371\">(58) 685-83-71</a><br><a href=\"mailto:kartuzy@elwozeco.pl\">kartuzy@elwozeco.pl</a>"], "payNote": "Opłatę za gospodarowanie odpadami komunalnymi wnosi się do dnia podanego w harmonogramie. Numer konta i wysokość opłaty znajdziesz w decyzji lub deklaracji z urzędu gminy.", "colors": {"X": "#1f1f1f", "B": "#993300", "Y": "#f5d800", "P": "#3366ff", "G": "#7cc242"}, "brand": ["GMINA<br>ŻUKOWO", ""], "defaultPlace": "1|Glincz", "noPlace": "w tym harmonogramie", "source": "Terminy pochodzą z harmonogramu wywozu odpadów zmieszanych i segregowanych na terenie gminy Żukowo (Babi Dół, Glincz), kwiecień 2026 – marzec 2027, nieruchomości zamieszkałe (ELWOZ eco).", "author": "KG", "ver": "1.5", "updateFile": "harmonogram-zukowo.json", "updateUrl": "https://krzysztof64.github.io/wywoz/zukowo/harmonogram-zukowo.json", "versionUrl": "https://krzysztof64.github.io/wywoz/zukowo/wersja.json", "apkName": "Wywoz-Zukowo.apk"};
 // harmonogram pobrany z serwera (nowszy niz wbudowany) ma pierwszenstwo
 const CFG = (()=>{ try{ const u = JSON.parse(localStorage.getItem("wywoz.cfg")||"null");
   if(u && u.id===BASE_CFG.id && u.rev > BASE_CFG.rev) return Object.assign({}, BASE_CFG, u); }catch(e){} return BASE_CFG; })();
@@ -411,6 +415,13 @@ const cap = s => s[0].toUpperCase()+s.slice(1);
 const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const p2 = n => String(n).padStart(2,"0");
 const parseD = s => { const [y,m,d] = s.split("-").map(Number); return new Date(y,m-1,d); };
+// kolory frakcji jak w harmonogramie gminy (CFG.colors), tekst/symbol dobierany do jasnosci tla
+const COL = Object.assign({X:"#455a64",B:"#8d5a3c",Y:"#f9c623",P:"#1e88e5",G:"#43a047",K:"#212121",PAY:"#e53935"}, CFG.colors||{});
+Object.entries(COL).forEach(([k,v]) => document.documentElement.style.setProperty("--c-"+k, v));
+const lum = h => { const n = parseInt(h.slice(1),16); return [n>>16,(n>>8)&255,n&255].map(v=>{ v/=255; return v<=.03928 ? v/12.92 : ((v+.055)/1.055)**2.4; }).reduce((s,v,i)=>s+v*[.2126,.7152,.0722][i],0); };
+const ON = t => lum(COL[t]) > .4 ? "#1a1a1a" : "#ffffff";
+function badge(t, cls=""){ return `<span class="fb ${cls}" style="background:var(--c-${t})"><svg viewBox="0 0 24 24" aria-hidden="true" style="fill:${ON(t)}"><use href="#i-${TYPES[t].icon}"/></svg></span>`; }
+function chipc(t){ return `<span class="fc" style="background:var(--c-${t});color:${ON(t)}">${SHORT[t]}</span>`; }
 function icon(t){ return `<svg viewBox="0 0 24 24" aria-hidden="true" style="fill:var(--c-${t})"><use href="#i-${TYPES[t].icon}"/></svg>`; }
 const names = types => types.map(t=>TYPES[t].name).join(", ");
 const pickupTypes = e => e.types.filter(t => t!=="PAY");
@@ -468,10 +479,10 @@ function renderStart(){
   card.className = "next" + (n<=1 ? " soon" : "");
   card.innerHTML = `<span class="lbl">${cap(relWord(n))} (${WD[e.date.getDay()]})</span>
     <div class="body"><div class="d tabnum"><b>${e.date.getDate()}</b><span>${MON_S[e.date.getMonth()]}</span></div>
-    <div class="fr">${ts.map(t=>`<div class="fr-row">${icon(t)}${TYPES[t].name}</div>`).join("")}</div></div>
+    <div class="fr">${ts.map(t=>`<div class="fr-row">${badge(t)}${TYPES[t].name}</div>`).join("")}</div></div>
     <div class="hint">${n===0 ? `Odpady muszą stać przed posesją do ${CFG.deadline}.` : `Wystaw odpady przed posesję do ${CFG.deadline} rano w dniu odbioru.`}</div>`;
-  $("#afterRow").innerHTML = up.slice(1,4).map(x=>{ const t2 = pickupTypes(x);
-    return `<div class="mini"><b>${x.date.getDate()} ${MONTHS_G[x.date.getMonth()]}</b>${t2.map(t=>`<i style="background:var(--c-${t})"></i>`).join("")} ${t2.map(t=>SHORT[t]).join(", ")}</div>`; }).join("");
+  $("#afterRow").innerHTML = up.slice(1,4).map(x=>
+    `<div class="mini"><b>${x.date.getDate()}<span>${MON_S[x.date.getMonth()]} · ${WD_S[(x.date.getDay()+6)%7]}</span></b><div class="fcs">${pickupTypes(x).map(chipc).join("")}</div></div>`).join("");
 }
 
 /* ---------- HARMONOGRAM ---------- */
@@ -488,7 +499,7 @@ function renderHarm(){
     html += `<div class="item${n===0?" today":""}" style="--cc:var(--c-${r.t})${r.date<t?";opacity:.5":""}">
       <div class="d tabnum"><b>${p2(r.date.getDate())}</b><span>${MON_S[r.date.getMonth()]}</span></div>
       <div><small>${dmy(r.date)} <i>(${WD[r.date.getDay()]})</i>${n>=0&&n<=1?`<span class="tag">${relWord(n)}</span>`:""}</small><strong>${TYPES[r.t].name}</strong></div>
-      <div class="ic">${icon(r.t)}</div></div>`;
+      <div class="ic">${badge(r.t)}</div></div>`;
   });
   box.innerHTML = html || `<div class="card"><div class="contact" style="border-top:0">Brak kolejnych terminów dla wybranej pozycji.</div></div>`;
   $("#pastBtn").textContent = showPast ? "Ukryj minione terminy" : "Pokaż minione terminy";
@@ -504,7 +515,7 @@ function renderRules(){
 }
 function openFrac(t){
   const box = (k,items)=>`<div class="box ${k}"><h4>${k==="ok"?"wrzucamy":"nie wrzucamy"}</h4><ul>${items.map(i=>`<li>${i}</li>`).join("")}</ul></div>`;
-  openSub(TYPES[t].name, `<div class="dhead" style="--cc:var(--c-${t})">${icon(t)}<div><b>${cap(TYPES[t].name)}</b><span>${cap(HOW[t])}</span></div></div>${box("ok",WASTE[t].ok)}${box("no",WASTE[t].no)}`);
+  openSub(TYPES[t].name, `<div class="dhead" style="--cc:var(--c-${t})">${badge(t,"lg")}<div><b>${cap(TYPES[t].name)}</b><span>${cap(HOW[t])}</span></div></div>${box("ok",WASTE[t].ok)}${box("no",WASTE[t].no)}`);
 }
 const fold = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/ł/g,"l");
 const AZ = [];
@@ -514,7 +525,7 @@ function renderWhere(){
   const f = fold($("#q").value.trim());
   const list = AZ.filter(x => x.ok && (!f || fold(x.i).includes(f)));
   const bad = f.length>=2 ? AZ.filter(x => !x.ok && fold(x.i).includes(f)) : [];
-  const row = x => `<div><span>${x.i}</span>${x.ok ? `<span class="to" style="--cc:var(--c-${x.t})">${icon(x.t)}${HOW[x.t]}</span>` : `<span class="to no">nie do: ${HOW[x.t]}</span>`}</div>`;
+  const row = x => `<div><span>${x.i}</span>${x.ok ? `<span class="to" style="background:var(--c-${x.t});color:${ON(x.t)}">${HOW[x.t]}</span>` : `<span class="to no">nie do: ${HOW[x.t]}</span>`}</div>`;
   const html = list.map(row).join("") + bad.map(row).join("");
   $("#azList").innerHTML = html || `<div><span>Nie znaleziono „${esc($("#q").value)}”. Spróbuj innego słowa albo zapytaj w urzędzie gminy.</span></div>`;
 }
@@ -548,7 +559,7 @@ function renderCal(){
       <button class="nav" id="nextM" aria-label="Następny miesiąc" ${calIdx===MLIST.length-1?"disabled":""}><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
     </div>
     <div class="grid">${cells}</div>
-    <div class="caldetail">${s ? `<p>${cap(WD[s.date.getDay()])}, ${s.date.getDate()} ${MONTHS_G[s.date.getMonth()]}</p>${s.types.map(x=>`<div class="fr-row">${icon(x)}${TYPES[x].name}</div>`).join("")}`
+    <div class="caldetail">${s ? `<p>${cap(WD[s.date.getDay()])}, ${s.date.getDate()} ${MONTHS_G[s.date.getMonth()]}</p>${s.types.map(x=>`<div class="fr-row">${badge(x)}${TYPES[x].name}</div>`).join("")}`
       : `<span style="color:var(--ink-3);font-size:.9rem">Dotknij dnia z kropkami, żeby zobaczyć, co jest odbierane.</span>`}</div>
   </div>`;
   $("#prevM").onclick = ()=>{ calIdx--; calSel=null; renderCal(); };
@@ -644,7 +655,7 @@ function applyUpdate(txt){
     setTimeout(()=>location.reload(), 900);
   } else if(updManual) updStatus("Masz najnowszy harmonogram.", true);
 }
-window.onDownloaded = (ok, txt) => { if(ok) applyUpdate(txt); else if(updManual) updStatus("Brak połączenia z serwerem. Spróbuj później.", false); };
+window.onDownloaded = (ok, txt) => { if(ok) applyUpdate(txt); else if(updManual) updStatus("Serwer z aktualizacjami jest niedostępny albo telefon nie ma internetu. Spróbuj później.", false); };
 function checkUpdate(manual){
   updManual = manual;
   store.set("wywoz.updChecked", String(Date.now()));
